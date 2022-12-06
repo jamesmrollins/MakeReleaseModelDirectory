@@ -22,9 +22,9 @@ jobs:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
     env:
-      PreviousModelDirName: 'mtl2.0_models'
-      NextModelDirName: 'mtl3.0_models'
-      ReleaseDirName: 'release_3.0'
+      PreviousModelDirName: 'mtl3.0_models'
+      NextModelDirName: 'mtl4.0_models'
+      ReleaseDirName: 'release_4.0'
       FindReplace: '[{"find": "mtl.how/data", "replace": "mtl.how/data_test" }, {"find": "mtl.how/menu", "replace": "mtl.how/menu_test"}, {"find": "mtl.how/sim", "replace": "mtl.how/sim_test"}]'
       
 
